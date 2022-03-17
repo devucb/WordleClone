@@ -56,15 +56,31 @@
 		636C728B27E3ED4E00C281A9 /* WordleClone */ = {
 			isa = PBXGroup;
 			children = (
-				636C728C27E3ED4E00C281A9 /* AppDelegate.swift */,
-				636C728E27E3ED4E00C281A9 /* SceneDelegate.swift */,
-				636C729027E3ED4E00C281A9 /* ViewController.swift */,
-				636C729227E3ED4E00C281A9 /* Main.storyboard */,
-				636C729527E3ED4E00C281A9 /* Assets.xcassets */,
-				636C729727E3ED4E00C281A9 /* LaunchScreen.storyboard */,
+				636C72A127E3F1E200C281A9 /* Oher */,
+				636C72A027E3F1D500C281A9 /* Core */,
 				636C729A27E3ED4E00C281A9 /* Info.plist */,
 			);
 			path = WordleClone;
+			sourceTree = "<group>";
+		};
+		636C72A027E3F1D500C281A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				636C729027E3ED4E00C281A9 /* ViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		636C72A127E3F1E200C281A9 /* Oher */ = {
+			isa = PBXGroup;
+			children = (
+				636C728C27E3ED4E00C281A9 /* AppDelegate.swift */,
+				636C728E27E3ED4E00C281A9 /* SceneDelegate.swift */,
+				636C729227E3ED4E00C281A9 /* Main.storyboard */,
+				636C729527E3ED4E00C281A9 /* Assets.xcassets */,
+				636C729727E3ED4E00C281A9 /* LaunchScreen.storyboard */,
+			);
+			path = Oher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
