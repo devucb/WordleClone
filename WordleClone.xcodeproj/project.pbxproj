@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635AA04F27E55B3F0056F692 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 635AA04E27E55B3F0056F692 /* words.txt */; };
 		636C728D27E3ED4E00C281A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C728C27E3ED4E00C281A9 /* AppDelegate.swift */; };
 		636C728F27E3ED4E00C281A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C728E27E3ED4E00C281A9 /* SceneDelegate.swift */; };
 		636C729127E3ED4E00C281A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C729027E3ED4E00C281A9 /* ViewController.swift */; };
 		636C729427E3ED4E00C281A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636C729227E3ED4E00C281A9 /* Main.storyboard */; };
 		636C729627E3ED4E00C281A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636C729527E3ED4E00C281A9 /* Assets.xcassets */; };
 		636C729927E3ED4E00C281A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636C729727E3ED4E00C281A9 /* LaunchScreen.storyboard */; };
+		636C72A327E3F2AE00C281A9 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C72A227E3F2AE00C281A9 /* KeyboardViewController.swift */; };
+		636C72A527E3F2C300C281A9 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C72A427E3F2C300C281A9 /* BoardViewController.swift */; };
+		636C72A727E3FBE100C281A9 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C72A627E3FBE100C281A9 /* KeyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		635AA04E27E55B3F0056F692 /* words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 		636C728927E3ED4E00C281A9 /* WordleClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordleClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636C728C27E3ED4E00C281A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		636C728E27E3ED4E00C281A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		636C729527E3ED4E00C281A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636C729827E3ED4E00C281A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636C729A27E3ED4E00C281A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636C72A227E3F2AE00C281A9 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		636C72A427E3F2C300C281A9 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		636C72A627E3FBE100C281A9 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		636C728B27E3ED4E00C281A9 /* WordleClone */ = {
 			isa = PBXGroup;
 			children = (
+				636C72A127E3F1E200C281A9 /* Oher */,
+				636C72A027E3F1D500C281A9 /* Core */,
+				636C729A27E3ED4E00C281A9 /* Info.plist */,
+				635AA04E27E55B3F0056F692 /* words.txt */,
+			);
+			path = WordleClone;
+			sourceTree = "<group>";
+		};
+		636C72A027E3F1D500C281A9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				636C729027E3ED4E00C281A9 /* ViewController.swift */,
+				636C72A227E3F2AE00C281A9 /* KeyboardViewController.swift */,
+				636C72A427E3F2C300C281A9 /* BoardViewController.swift */,
+				636C72A627E3FBE100C281A9 /* KeyCell.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		636C72A127E3F1E200C281A9 /* Oher */ = {
+			isa = PBXGroup;
+			children = (
 				636C728C27E3ED4E00C281A9 /* AppDelegate.swift */,
 				636C728E27E3ED4E00C281A9 /* SceneDelegate.swift */,
-				636C729027E3ED4E00C281A9 /* ViewController.swift */,
 				636C729227E3ED4E00C281A9 /* Main.storyboard */,
 				636C729527E3ED4E00C281A9 /* Assets.xcassets */,
 				636C729727E3ED4E00C281A9 /* LaunchScreen.storyboard */,
-				636C729A27E3ED4E00C281A9 /* Info.plist */,
 			);
-			path = WordleClone;
+			path = Oher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635AA04F27E55B3F0056F692 /* words.txt in Resources */,
 				636C729927E3ED4E00C281A9 /* LaunchScreen.storyboard in Resources */,
 				636C729627E3ED4E00C281A9 /* Assets.xcassets in Resources */,
 				636C729427E3ED4E00C281A9 /* Main.storyboard in Resources */,
@@ -141,6 +170,9 @@
 				636C729127E3ED4E00C281A9 /* ViewController.swift in Sources */,
 				636C728D27E3ED4E00C281A9 /* AppDelegate.swift in Sources */,
 				636C728F27E3ED4E00C281A9 /* SceneDelegate.swift in Sources */,
+				636C72A727E3FBE100C281A9 /* KeyCell.swift in Sources */,
+				636C72A327E3F2AE00C281A9 /* KeyboardViewController.swift in Sources */,
+				636C72A527E3F2C300C281A9 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +337,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
